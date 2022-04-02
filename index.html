@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h3 style="padding: 10px">Serial Port Console</h3>
+      <img src="./images/port.png" width="50px" height="50px" />
+    </div>
+
+    <div class="container" style="padding: 20px">
+      <div class="controllers" style="width: 300px">
+        <button id="btn" type="button" class="btn btn-primary btn-sm">
+          Read Data
+        </button>
+        <button id="clear" type="button" class="btn btn-warning btn-sm">
+          Clear Log
+        </button>
+      </div>
+      <hr />
+      <div class="mb-3">
+        <label for="console-log" class="form-label">Console Log</label>
+        <textarea
+          id="log"
+          class="form-control"
+          id="console-log"
+          rows="5"
+        ></textarea>
+      </div>
+      <hr />
+      <div>
+          <a href="mailto:shehan.salinda92@gmail.com">Help</a>
+      </div>
+      <hr />
+    </div>
+  </body>
+</html>

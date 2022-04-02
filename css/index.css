@@ -1,0 +1,10 @@
+.header{
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+button{
+    padding: 20px;
+}
