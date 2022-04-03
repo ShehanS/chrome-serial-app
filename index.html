@@ -8,23 +8,24 @@
     <script src="index.js"></script>
   </head>
   <body>
-    <div class="header">
-      <h3 style="padding: 10px">Serial Port Console</h3>
+    <div class="center">
+      <h4 style="padding: 5px">Serial Port Console</h4>
       <img src="./images/port.png" width="50px" height="50px" />
     </div>
 
     <div class="container" style="padding: 20px">
-      <div class="controllers" style="width: 300px">
-        <button id="btn" type="button" class="btn btn-primary btn-sm">
+      <div class="controllers">
+        <button id="btn" type="button" class="btn btn-secondary btn-sm">
           Read Data
         </button>
-        <button id="clear" type="button" class="btn btn-warning btn-sm">
+        <button id="clear" type="button" class="btn btn-secondary btn-sm">
           Clear Log
         </button>
       </div>
       <hr />
+      <div class="controllers">
       <div class="mb-3">
-        <label for="console-log" class="form-label">Console Log</label>
+        <label for="console-log" class="form-label" style="color: #ffff;">Console Log</label>
         <textarea
           id="log"
           class="form-control"
@@ -32,11 +33,16 @@
           rows="5"
         ></textarea>
       </div>
-      <hr />
-      <div>
-          <a href="mailto:shehan.salinda92@gmail.com">Help</a>
       </div>
+      <div id="alert" class="alert"></div>
       <hr />
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <img src="images/git.png" width="25px" height="25px"/>
+        <a style="padding-left:5px;" href="https://github.com/ShehanS">Github.com</a>
+      </div>
+      </div>
+      
     </div>
+
   </body>
 </html>

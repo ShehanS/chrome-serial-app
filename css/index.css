@@ -1,10 +1,41 @@
-.header{
-    margin-top: 5px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.center {
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #ffff;
 }
 
-button{
-    padding: 20px;
+button {
+  margin: 5px;
 }
+
+body {
+  background-color: #31312b;
+}
+.controllers {
+  background-color: #535350;
+  padding: 5px;
+  border-radius: 5px;
+  border: #8a8a8a 2px solid;
+}
+.alert {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  a:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }

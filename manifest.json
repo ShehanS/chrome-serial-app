@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Shehan",
+    "name": "Serial Port Console",
     "version": "1",
     "icons": {
       "128": "command.png"
